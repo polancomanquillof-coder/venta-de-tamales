@@ -1,6 +1,59 @@
+/* Estilos generales */
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfbf7; /* Un color crema suave, muy cálido */
+    color: #333333;
     text-align: center;
+    margin: 0;
+    padding: 20px;
 }
+
+/* Títulos y textos */
+h1 {
+    color: #d9534f; /* Color llamativo tipo antojito/comida */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555555;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+/* Imagen del producto */
 img {
     width: 100%;
+    max-width: 400px; /* Para que no se vea gigante en computadoras */
+    height: auto;
+    border-radius: 12px; /* Bordes redondeados modernos */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+    margin-bottom: 25px;
+}
+
+/* Estilo para el botón de WhatsApp */
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25d366; /* Verde oficial de WhatsApp */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px; /* Botón tipo píldora */
+    box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto al pasar el mouse por encima del botón */
+.btn-whatsapp:hover {
+    background-color: #20ba5a;
+    transform: translateY(-2px); /* Pequeño salto hacia arriba */
+}
+
+/* Pie de página */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888888;
 }
